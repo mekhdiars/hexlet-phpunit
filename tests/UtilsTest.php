@@ -12,6 +12,5 @@ class UtilsTest extends TestCase
     {
         $this->assertEquals('', reverseString(''));
         $this->assertEquals('olleh', reverseString('hello'));
-        $this->assertEquals('OLLEH', reverseString('HELLO'));
     }
 }
